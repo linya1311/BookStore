@@ -1,0 +1,154 @@
+<html><head>
+<meta charset="utf-8">
+<title>註冊 | KKBOX</title>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+<link href="/static/css/style.min.css?v=1559765773" rel="stylesheet" media="screen">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="/static/css/global-font.min.css?v=1559765773" rel="stylesheet" media="screen">
+<link href="/static/css/account-style.min.css?v=1559765773" rel="stylesheet" media="screen">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+<!-- Google Tag Manager -->
+<script src="https://s.yimg.com/wi/ytc.js" async=""></script><script src="//bat.bing.com/bat.js" async=""></script><script type="text/javascript" async="" src="//www.googleadservices.com/pagead/conversion_async.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="//d31qbv1cthcecs.cloudfront.net/atrk.js"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/api2/v1558333958099/recaptcha__zh_tw.js"></script><script src="https://connect.facebook.net/signals/config/402760546784854?v=2.8.51&amp;r=stable" async=""></script><script src="https://connect.facebook.net/signals/plugins/inferredEvents.js?v=2.8.51" async=""></script><script src="https://connect.facebook.net/signals/config/669999719812679?v=2.8.51&amp;r=stable" async=""></script><script src="https://connect.facebook.net/signals/plugins/identity.js?v=2.8.51" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-N7JLPJL"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N7JLPJL');</script>
+<!-- End Google Tag Manager -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
+<![endif]-->
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '669999719812679', {
+em: 'insert_email_variable'
+});
+
+fbq('track', 'PageView');
+
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=669999719812679&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LfpFXgUAAAAAMBOI9nrk9YEbh61kiEvx8qwdSmn"></script>
+<script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/854889032/?random=1559765774473&amp;cv=9&amp;fst=1559765774473&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=1440&amp;u_w=2560&amp;u_ah=1400&amp;u_aw=2560&amp;u_cd=24&amp;u_his=2&amp;u_tz=480&amp;u_java=false&amp;u_nplug=1&amp;u_nmime=2&amp;gtm=2wg5m0&amp;sendb=1&amp;frm=0&amp;url=https%3A%2F%2Faccount.kkbox.com%2Fsignup%3Furl%3D%252Foauth2%252Fauthorize%253Fclient_id%253D5942077a05d40db6884a014ba6835dbe%2526redirect_uri%253Dhttps%25253A%25252F%25252Fwww.kktv.me%25252Fauth%25252Fkkbox%25252Fcallback%2526response_type%253Dcode%2526scope%253Duser_profile%252520user_territory%252520user_account_status%2526state%253D%25252F%252520%25252Fsignup%26reg_type%3Dfacebook%26error_type%3Dnotregistered&amp;tiba=%E8%A8%BB%E5%86%8A%20%7C%20KKBOX&amp;async=1&amp;rfmt=3&amp;fmt=4"></script></head>
+<body id="page-login">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7JLPJL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="wrapper">
+
+<div class="container">
+    <div class="row">
+
+        
+        <div id="signup" class="form-box center-block">
+            
+            <form id="form-signup" method="post">
+                <input name="url" type="hidden" value="">
+                <input id="reg_type" name="reg_type" type="hidden" value="">
+                <input name="csrf_token" type="hidden" value="d93c1f867eaa6ed43cb917f22d7616457b2a78bf">
+                <input id="g-recaptcha-response" name="g-recaptcha-response" type="hidden" value="03AOLTBLRXwZakdC-kLDcWn823TXg1zFh8eeI4HUsIM-nza3OKdTkHpYYb_ArytF3TAJeVEsFN7frTgG3hrmvJZN_9MDIAWXStGHQA7ToTWqxf6ezXhP1jdkNSBXED5mER2GKejMfvaKzmYMfgEAdsZeXdqveEXu-ACkdN2bzKCMkWTxvpDaLIpoOfpuVPvK2q3LII6XZv1dNaKY7gwu4vWqnH8U1Hqa72QP6b6lXy22Jwp5BC-_AC7MGPCyvTlfioPPQRX7Nasr2cN8ADRL6g4-77X1phzRNi4hXakhxYbBO_JnHKyr3DjMukAAuB0KhIuTRbA3cgxbK9">
+                
+                <div class="form-group eye-container">
+                    <input class="form-control" id="password" name="password" placeholder="密碼" required="required" type="password" oninvalid="setCustomValidity('請填寫這個欄位。')" oninput="setCustomValidity('')">
+                    <div class="eye eye-hide" title="顯示密碼"></div>
+                </div>
+                
+                
+                
+                
+                <div class="form-group">
+                    <input class="btn btn-block btn-default btn-lg btn-primary btn-email" type="submit" value="註冊">
+                </div>
+                
+                
+            </form>
+        <div></div></div>
+    </div>
+
+<!--[if lte IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-placeholder/2.0.7/jquery.placeholder.min.js"></script>
+<script>
+jQuery('#form-login input[name="username"]').focus();
+</script>
+<![endif]-->
+<script>
+$('.has-error').change(function () {
+    $(this).removeClass('has-error');
+});
+$('#username').on('input', function () {
+    if ($('#reg_type').val() === 'email') {
+        var username = $('#username').val();
+        if (username.indexOf('@') >= 0) {
+            $('#nickname').val(username.split('@')[0]);
+        } else {
+            $('#nickname').val('');
+        }
+    }
+});
+
+$('.eye').on('click', function () {
+    var strShowPasswd = "顯示密碼";
+    var strHidePasswd = "隱藏密碼";
+
+    $(this).toggleClass('eye-show eye-hide');
+    if ($(this).hasClass('eye-show')) {
+        $('#password').attr('type', 'text');
+        $(this).attr('title', strHidePasswd);
+    } else {
+        $('#password').attr('type', 'password');
+        $(this).attr('title', strShowPasswd);
+    }
+})
+
+$(() => {
+    grecaptcha.ready(() => {
+        grecaptcha.execute('6LfpFXgUAAAAAMBOI9nrk9YEbh61kiEvx8qwdSmn', {action: 'login'}).then((token) => {
+            $('#g-recaptcha-response').val(token);
+        });
+    });
+});
+</script>
+</div>
+
+
+
+
+</div><script>
+<!--
+_atrk_opts={atrk_acct:"bYP4i1acVE00wd",domain:"kkbox.com",dynamic:true};(function(){var as=document.createElement('script');as.type='text/javascript';as.async=true;as.src="//d31qbv1cthcecs.cloudfront.net/atrk.js";var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as,s);})();
+//-->
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=bYP4i1acVE00wd" style="display:none" height="1" width="1" alt=""></noscript>
+<script>
+<!--
+(function(){
+    jQuery('.alert').alert();
+})();
+//-->
+</script>
+
+
+<div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px;"><div class="grecaptcha-logo"><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfpFXgUAAAAAMBOI9nrk9YEbh61kiEvx8qwdSmn&amp;co=aHR0cHM6Ly9hY2NvdW50LmtrYm94LmNvbTo0NDM.&amp;hl=zh-TW&amp;v=v1558333958099&amp;size=invisible&amp;cb=wrzz7jadg3qi" role="presentation" name="a-s00kmvhfxnad" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" width="256" height="60" frameborder="0"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div><script type="text/javascript" id="">(function(b,c,e,f,d){b[d]=b[d]||[];var g=function(){var a={ti:"5681547"};a.q=b[d];b[d]=new UET(a);b[d].push("pageLoad")};var a=c.createElement(e);a.src=f;a.async=1;a.onload=a.onreadystatechange=function(){var b=this.readyState;b&&"loaded"!==b&&"complete"!==b||(g(),a.onload=a.onreadystatechange=null)};c=c.getElementsByTagName(e)[0];c.parentNode.insertBefore(a,c)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5681547&amp;Ver=2" height="0" width="0" style="display:none; visibility: hidden;"></noscript>
+
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","402760546784854");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=402760546784854&amp;ev=PageView&amp;noscript=1"></noscript>
+
+<script type="text/javascript" id="">(function(d,a,b,f,e){d[e]=d[e]||[];d[e].push({projectId:"10000",properties:{pixelId:"10033841"}});var c=a.createElement(b);c.src=f;c.async=!0;c.onload=c.onreadystatechange=function(){var a=this.readyState,c=d[e];if(!a||"complete"==a||"loaded"==a)try{var b=YAHOO.ywa.I13N.fireBeacon;d[e]=[];d[e].push=function(a){b([a])};b(c)}catch(g){}};a=a.getElementsByTagName(b)[0];b=a.parentNode;b.insertBefore(c,a)})(window,document,"script","https://s.yimg.com/wi/ytc.js","dotq");</script>
+<script type="application/javascript" id="ywa-1559765774437-912249" class="ywa-10000" defer="" src="https://sp.analytics.yahoo.com/sp.pl?a=10000&amp;jsonp=YAHOO.ywa.I13N.handleJSONResponse&amp;d=Wed%2C%2005%20Jun%202019%2020%3A16%3A14%20GMT&amp;n=-8&amp;b=%E8%A8%BB%E5%86%8A%20%7C%20KKBOX&amp;.yp=10033841&amp;f=https%3A%2F%2Faccount.kkbox.com%2Fsignup%3Furl%3D%252Foauth2%252Fauthorize%253Fclient_id%253D5942077a05d40db6884a014ba6835dbe%2526redirect_uri%253Dhttps%25253A%25252F%25252Fwww.kktv.me%25252Fauth%25252Fkkbox%25252Fcallback%2526response_type%253Dcode%2526scope%253Duser_profile%252520user_territory%252520user_account_status%2526state%253D%25252F%252520%25252Fsignup%26reg_type%3Dfacebook%26error_type%3Dnotregistered%23_%3D_&amp;enc=UTF-8"></script><div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.1874183674702864"><img style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.35956727708024006" alt="" src="https://bat.bing.com/action/0?ti=5681547&amp;Ver=2&amp;mid=0e4bf584-7e72-c243-216b-12fab7553318&amp;pi=1001431019&amp;lg=zh-TW&amp;sw=2560&amp;sh=1440&amp;sc=24&amp;tl=%E8%A8%BB%E5%86%8A%20%7C%20KKBOX&amp;p=https%3A%2F%2Faccount.kkbox.com%2Fsignup%3Furl%3D%252Foauth2%252Fauthorize%253Fclient_id%253D5942077a05d40db6884a014ba6835dbe%2526redirect_uri%253Dhttps%25253A%25252F%25252Fwww.kktv.me%25252Fauth%25252Fkkbox%25252Fcallback%2526response_type%253Dcode%2526scope%253Duser_profile%252520user_territory%252520user_account_status%2526state%253D%25252F%252520%25252Fsignup%26reg_type%3Dfacebook%26error_type%3Dnotregistered%23_%3D_&amp;r=&amp;lt=260&amp;evt=pageLoad&amp;msclkid=N&amp;rn=446842" width="0" height="0"></div></body></html>

@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="form-group eye-container">
+                    <input class="form-control" id="password" name="password" placeholder="密碼" required="required" type="password" oninvalid="setCustomValidity('請填寫這個欄位。')" oninput="setCustomValidity('')">
+                    <div class="eye eye-hide" title="顯示密碼"></div>
+                </div>
+</body>
+</html>

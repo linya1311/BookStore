@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>註冊 | KKBOX</title>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+<link href="/static/css/style.min.css?v=1559764105" rel="stylesheet" media="screen">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="/static/css/global-font.min.css?v=1559764105" rel="stylesheet" media="screen">
+<link href="/static/css/account-style.min.css?v=1559764105" rel="stylesheet" media="screen">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N7JLPJL');</script>
+<!-- End Google Tag Manager -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
+<![endif]-->
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '669999719812679', {
+em: 'insert_email_variable'
+});
+
+fbq('track', 'PageView');
+
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=669999719812679&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<script src='https://www.google.com/recaptcha/api.js?render=6LfpFXgUAAAAAMBOI9nrk9YEbh61kiEvx8qwdSmn'></script>
+</head>
+<body id="page-login">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7JLPJL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="wrapper">
+<nav class="navbar">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="http://www.kkbox.com/" target="_blank"><img src="/static/img/logo.png" alt="KKBOX"></a>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+
+        <div id="login-hint-box" class="form-box center-block">
+            <h3>歡迎！</h3>
+            <a id="login-box-expand" class="btn btn-block btn-default btn-lg btn-gray" href="/login?url=%2Foauth2%2Fauthorize%3Fclient_id%3D5942077a05d40db6884a014ba6835dbe%26redirect_uri%3Dhttps%253A%252F%252Fwww.kktv.me%252Fauth%252Fkkbox%252Fcallback%26response_type%3Dcode%26scope%3Duser_profile%2520user_territory%2520user_account_status%26state%3D%252F%2520%252Fsignup&show_forms=login%2Csignup&lang=zh">登入</a>
+        </div>
+        <div id="signup" class="form-box center-block">
+            <h3>建立 KKBOX 帳號</h3>
+            <form id="form-signup" method="post">
+                <input name="url" type="hidden" value="/oauth2/authorize?client_id=5942077a05d40db6884a014ba6835dbe&amp;redirect_uri=https%3A%2F%2Fwww.kktv.me%2Fauth%2Fkkbox%2Fcallback&amp;response_type=code&amp;scope=user_profile%20user_territory%20user_account_status&amp;state=%2F%20%2Fsignup">
+                <input id="reg_type" name="reg_type" type="hidden" value="facebook">
+                <input name="csrf_token" type="hidden" value="a8a8145d5fe2514a9b81f6b6b6bf9dcf600569e5">
+                <input id="g-recaptcha-response" name="g-recaptcha-response" type="hidden" />
+                <div class="form-group">
+                    <input autofocus="autofocus" class="form-control" id="username" name="username" placeholder="帳號/E-mail" required="required" type="text" value="love_gaing@yahoo.com.tw" oninvalid="setCustomValidity('請填寫這個欄位。')" oninput="setCustomValidity('')">
+                </div>
+                <div class="form-group eye-container">
+                    <input class="form-control" id="password" name="password" placeholder="密碼" required="required" type="password" oninvalid="setCustomValidity('請填寫這個欄位。')" oninput="setCustomValidity('')">
+                    <div class="eye eye-hide" title="顯示密碼"></div>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" id="cellphone" name="cellphone" placeholder="聯絡資訊 (輸入手機門號確保帳戶安全)" type="text" value="" />
+                </div>
+                <div class="form-group">
+                    <input class="form-control" id="nickname" name="nickname" placeholder="暱稱" required="required" type="text" value="林方韻" oninvalid="setCustomValidity('請填寫這個欄位。')" oninput="setCustomValidity('')">
+                </div>
+                <div id="alert-container">
+                    <div class="alert alert-danger">
+                        <button arid-hidden="true" class="close" data-dismiss="alert" type="button">&times;</button>
+
+這是你第一次使用 FB 帳號登入，請設定一組密碼以完成註冊。                    </div>
+                </div>
+                <div class="form-group">
+                    <p>
+                        確認註冊表示你同意                        <a target='_blank' href='https://www.kkbox.com/about/zh-tw/terms?terr=tw'>會員使用條款</a>
+                        ＆                        <a target='_blank' href='https://www.kkbox.com/about/zh-tw/privacy?terr=tw'>隱私權政策</a>。                    </p>
+                </div>
+                <div class="form-group">
+                    <input class="btn btn-block btn-default btn-lg btn-primary btn-email" type="submit" value="註冊">
+                </div>
+            </form>
+        </div>
+    </div>
+
+<!--[if lte IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-placeholder/2.0.7/jquery.placeholder.min.js"></script>
+<script>
+jQuery('#form-login input[name="username"]').focus();
+</script>
+<![endif]-->
+<script>
+$('.has-error').change(function () {
+    $(this).removeClass('has-error');
+});
+$('#username').on('input', function () {
+    if ($('#reg_type').val() === 'email') {
+        var username = $('#username').val();
+        if (username.indexOf('@') >= 0) {
+            $('#nickname').val(username.split('@')[0]);
+        } else {
+            $('#nickname').val('');
+        }
+    }
+});
+
+$('.eye').on('click', function () {
+    var strShowPasswd = "顯示密碼";
+    var strHidePasswd = "隱藏密碼";
+
+    $(this).toggleClass('eye-show eye-hide');
+    if ($(this).hasClass('eye-show')) {
+        $('#password').attr('type', 'text');
+        $(this).attr('title', strHidePasswd);
+    } else {
+        $('#password').attr('type', 'password');
+        $(this).attr('title', strShowPasswd);
+    }
+})
+
+$(() => {
+    grecaptcha.ready(() => {
+        grecaptcha.execute('6LfpFXgUAAAAAMBOI9nrk9YEbh61kiEvx8qwdSmn', {action: 'login'}).then((token) => {
+            $('#g-recaptcha-response').val(token);
+        });
+    });
+});
+</script>
+</div><!-- .container -->
+<!-- lang-selector -->
+<div class="container text-center">
+    <div class="dropdown lang-selector">
+        <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        繁體中文<span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dLabel">
+<li><a href="/signup?url=%2Foauth2%2Fauthorize%3Fclient_id%3D5942077a05d40db6884a014ba6835dbe%26redirect_uri%3Dhttps%253A%252F%252Fwww.kktv.me%252Fauth%252Fkkbox%252Fcallback%26response_type%3Dcode%26scope%3Duser_profile%2520user_territory%2520user_account_status%26state%3D%252F%2520%252Fsignup&reg_type=facebook&error_type=notregistered&lang=en" >English</a></li><li><a href="/signup?url=%2Foauth2%2Fauthorize%3Fclient_id%3D5942077a05d40db6884a014ba6835dbe%26redirect_uri%3Dhttps%253A%252F%252Fwww.kktv.me%252Fauth%252Fkkbox%252Fcallback%26response_type%3Dcode%26scope%3Duser_profile%2520user_territory%2520user_account_status%26state%3D%252F%2520%252Fsignup&reg_type=facebook&error_type=notregistered&lang=sc" >简体中文</a></li><li><a href="/signup?url=%2Foauth2%2Fauthorize%3Fclient_id%3D5942077a05d40db6884a014ba6835dbe%26redirect_uri%3Dhttps%253A%252F%252Fwww.kktv.me%252Fauth%252Fkkbox%252Fcallback%26response_type%3Dcode%26scope%3Duser_profile%2520user_territory%2520user_account_status%26state%3D%252F%2520%252Fsignup&reg_type=facebook&error_type=notregistered&lang=ja" >日本語</a></li><li><a href="/signup?url=%2Foauth2%2Fauthorize%3Fclient_id%3D5942077a05d40db6884a014ba6835dbe%26redirect_uri%3Dhttps%253A%252F%252Fwww.kktv.me%252Fauth%252Fkkbox%252Fcallback%26response_type%3Dcode%26scope%3Duser_profile%2520user_territory%2520user_account_status%26state%3D%252F%2520%252Fsignup&reg_type=facebook&error_type=notregistered&lang=ms" >Bahasa Malaysia</a></li>        </ul>
+    </div>
+</div>
+<div id="footer-invisible-block"></div>
+<footer>
+<div class="copyright">
+    <p class="text-center">Copyright &copy; 2019 KKBOX All Rights Reserved.</p>
+</div>
+</footer>
+</div>
+<script>
+<!--
+_atrk_opts={atrk_acct:"bYP4i1acVE00wd",domain:"kkbox.com",dynamic:true};(function(){var as=document.createElement('script');as.type='text/javascript';as.async=true;as.src="//d31qbv1cthcecs.cloudfront.net/atrk.js";var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as,s);})();
+//-->
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=bYP4i1acVE00wd" style="display:none" height="1" width="1" alt=""></noscript>
+<script>
+<!--
+(function(){
+    jQuery('.alert').alert();
+})();
+//-->
+</script>
+</body>
+</html>

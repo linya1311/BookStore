@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="default" extends="struts-default">
+   
+	<action name="loginAction" class="org.action.loginAction">
+		<result name="success">/index_user.jsp</result>
+		<result name="error">/index_login_error.jsp</result>
+	</action>
+	
+	<action name="memberAction" class="org.action.memberAction">
+		<result name="success">/join_3.jsp</result>
+		<result name="ID_error">/join_3_iderror.jsp</result>
+		<result name="EMAIL_error">/join_3_emailerror.jsp</result>
+		<result name="error">/join_3_error.jsp</result>
+	</action>
+	
+    </package>
+    
+</struts>

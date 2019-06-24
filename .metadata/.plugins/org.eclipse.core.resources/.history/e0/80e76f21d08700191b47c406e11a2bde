@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form id="form-signup" method="post">
+                <input name="url" type="hidden" value="">
+                <input id="reg_type" name="reg_type" type="hidden" value="">
+                <input name="csrf_token" type="hidden" value="d93c1f867eaa6ed43cb917f22d7616457b2a78bf">
+                <input id="g-recaptcha-response" name="g-recaptcha-response" type="hidden" value="03AOLTBLRXwZakdC-kLDcWn823TXg1zFh8eeI4HUsIM-nza3OKdTkHpYYb_ArytF3TAJeVEsFN7frTgG3hrmvJZN_9MDIAWXStGHQA7ToTWqxf6ezXhP1jdkNSBXED5mER2GKejMfvaKzmYMfgEAdsZeXdqveEXu-ACkdN2bzKCMkWTxvpDaLIpoOfpuVPvK2q3LII6XZv1dNaKY7gwu4vWqnH8U1Hqa72QP6b6lXy22Jwp5BC-_AC7MGPCyvTlfioPPQRX7Nasr2cN8ADRL6g4-77X1phzRNi4hXakhxYbBO_JnHKyr3DjMukAAuB0KhIuTRbA3cgxbK9">
+                
+	<div class="form-group eye-container">
+		<input class="form-control" id="password" name="password" placeholder="密碼" required="required" type="password" oninvalid="setCustomValidity('請填寫這個欄位。')" oninput="setCustomValidity('')">
+		<div class="eye eye-hide" title="顯示密碼"></div>
+	</div>
+</form>
+</body>
+</html>

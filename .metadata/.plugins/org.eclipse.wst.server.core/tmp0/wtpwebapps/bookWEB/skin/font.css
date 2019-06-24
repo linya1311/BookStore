@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+.A-xs{
+font-family:Microsoft JhengHei;
+font-size:x-small;
+}
+
+.A-s{
+font-family:Microsoft JhengHei;
+font-size:small;
+}
+
+.A-m{
+font-family:Microsoft JhengHei;
+font-size:medium;
+}
+
+.A-l{
+font-family:Microsoft JhengHei;
+font-size:large;
+}
+
+.A-xl{
+font-family:Microsoft JhengHei;
+font-size:x-large;
+}
+
+.A-xxl{
+font-family:Microsoft JhengHei;
+font-size:xx-large;
+}
+
+.B-xs{
+font-family:Microsoft JhengHei;
+font-weight:bold;
+font-size:x-small;
+}
+
+.B-s{
+font-family:Microsoft JhengHei;
+font-weight:bold;
+font-size:small;
+}
+
+.B-m{
+font-family:Microsoft JhengHei;
+font-weight:bold;
+font-size:medium;
+}
+
+.B-l{
+font-family:Microsoft JhengHei;
+font-weight:bold;
+font-size:large;
+}
+
+.B-xl{
+font-family:Microsoft JhengHei;
+font-weight:bold;
+font-size:x-large;
+}
+
+.B-xxl{
+font-family:Microsoft JhengHei;
+font-weight:bold;
+font-size:xx-large;
+}
+
+.B-500{
+font-family:Microsoft JhengHei;
+font-weight:bold;
+font-size:500%;
+}
+
+.R{
+font-family:Microsoft JhengHei;
+font-weight:bold;
+color:red;
+font-size:;
+}
+
+.text{
+ height:25px;
+ width:250px;
+ font-size:20px;
+ font-family:Microsoft JhengHei;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
